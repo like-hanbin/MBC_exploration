@@ -2,9 +2,16 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+/* css reset */
+
 body,h1,h2,h3,h4,h5,ul{
     padding: 0px;
     margin: 0px;
+}
+
+
+body{
+    background-color: #f5f5f5;
 }
 
 header {
@@ -37,7 +44,8 @@ header {
     display: inline-block;
     padding-right: 30px;
     font-size: 23px;
-    font-weight: 800;
+    font-weight: 600;
+    color: #000;
 }
 
 article {
@@ -108,9 +116,6 @@ article {
     color: #fff;
 }
 
-.materialBox{
-    margin-right: 40px;
-}
 
 .materialBox img{
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
